@@ -17,5 +17,6 @@ module.exports = {
     'no-confusing-arrow': 'off',
     'implicit-arrow-linebreak': 'off',
     'function-paren-newline': 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
   },
 };
